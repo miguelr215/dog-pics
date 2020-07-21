@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Pics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Random Dog Pics</h1>
 
+        <form>
+            <label for="userNumber">Enter Number of Dog pics wanted</label>
+            <input type="text" placeholder="3 is default" name="userNumber" id="userNumber">
+            <button>Submit</button>
+        </form>
 
+        <div class="picBox group"></div>
 
+    </div> <!--end of container-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>

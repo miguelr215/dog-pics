@@ -1,2 +1,51 @@
 /* DOG PICS */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+form,
+input {
+    text-align: center;
+    margin: 10px auto;
+}
+
+input,
+button {
+    font-size: 18px;
+}
+
+form label, 
+input {
+    display: block;
+}
+
+button {
+    padding: 5px;
+    background-color: #00ffff;
+    border-radius: 5px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+}
+
+
+
+
+
+
+@media all and (min-width: 600px){
+    .group {
+        flex-direction: row;
+    }
+}

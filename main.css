@@ -35,17 +35,23 @@ button {
     flex-direction: column;
 }
 
-.item {
+.dogPic {
     flex: 1;
+    width: 200px;
+    margin: 5px auto;
 }
-
-
-
-
-
 
 @media all and (min-width: 600px){
     .group {
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .dogPic {
+        margin: 10px auto;
+    }
+
+    .picBox img {
+        margin: 10px;
     }
 }

@@ -14,8 +14,11 @@ input {
     margin: 10px auto;
 }
 
-input,
-button {
+.hidden {
+    display: none;
+}
+
+input {
     font-size: 18px;
 }
 
@@ -24,7 +27,7 @@ input {
     display: block;
 }
 
-button {
+input[type=submit] {
     padding: 5px;
     background-color: #00ffff;
     border-radius: 5px;
@@ -40,6 +43,10 @@ button {
     width: 200px;
     margin: 5px auto;
 }
+
+/* .picBox h2 {
+    display: block;
+} */
 
 @media all and (min-width: 600px){
     .group {
